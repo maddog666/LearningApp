@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20sp"
+    android:background="@color/background_color">
+    <LinearLayout
+        style="@style/GamingTitleLinearLayout">
+        <LinearLayout
+            style="@style/GamingTitleLeftLinearLayout">
+            <ImageView 
+                style="@style/GamingTitleHomeImageView"
+                android:src="@drawable/home"
+                android:id="@+id/homeButton"/>            
+        </LinearLayout>
+        <LinearLayout
+            style="@style/GamingTitleMiddleLinearLayout"
+            android:id="@+id/TitleMiddleLayout">
+             	        	
+        </LinearLayout>
+        <LinearLayout
+            style="@style/GamingTitleRightLinearLayout">
+            
+        </LinearLayout>
+    </LinearLayout>
+    
+	<LinearLayout
+        style="@style/GamingCenterImageLinearLayout"
+        android:id="@+id/centerImageLayout">    
+        <ImageView 
+            style="@style/GamingCenterImageView"
+            android:id="@+id/centerImageView"/>
+    </LinearLayout>
+    
+	<LinearLayout
+        style="@style/GamingToolbarLinearLayout">
+        <LinearLayout
+            style="@style/GamingToolbarLeftLinearLayout">
+            <ImageView
+                style="@style/GamingToolbarArrowLeftImageView"
+                android:src="@drawable/arrow_left"
+                android:id="@+id/previousPageButton" />
+        </LinearLayout>
+        <LinearLayout
+            style="@style/GamingToolbarMiddleLinearLayout">
+            <ImageView
+                style="@style/GamingToolbarSpeakerImageView"
+                android:src="@drawable/speaker"/>
+        </LinearLayout>
+        <LinearLayout
+            style="@style/GamingToolbarRightLinearLayout">
+            <ImageView
+                style="@style/GamingToolbarArrowRightImageView"
+                android:src="@drawable/arrow_right"
+                android:id="@+id/nextPageButton"/>
+        </LinearLayout>
+    </LinearLayout>
+   
+</LinearLayout>

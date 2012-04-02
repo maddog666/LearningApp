@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, LearningAppActivity!</string>
+    <string name="app_name">LearningApp</string>
+    <string name="series_name">XXX</string>
+	<string name="app_theme">Sports for Life</string>
+	
+	<string name="basketballLabel">Basketball</string>
+	<string name="baseballLabel">Baseball</string>
+	<string name="soccerLabel">Soccer</string>
+	<string name="tennisLabel">Tennis</string>
+	<string name="golfLabel">Golf</string>
+	<string name="othersLabel">Others</string>
+	
+	<integer name="minNumberIndex">1</integer>
+	<integer name="maxNumberIndex">3</integer>
+</resources>

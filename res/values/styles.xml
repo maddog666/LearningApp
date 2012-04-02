@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="TitleLvl1LinearLayout">
+	    <item name="android:layout_height">match_parent</item>
+	    <item name="android:layout_width">match_parent</item>
+	    <item name="android:orientation">vertical</item>
+	    <item name="android:weightSum">1</item>
+	</style>
+	
+	<style name="TitleLvl2LinearLayout">
+	    <item name="android:layout_height">0dip</item>
+	    <item name="android:layout_width">match_parent</item>
+	    <item name="android:layout_weight">0.5</item>
+	    <item name="android:orientation">horizontal</item>	    
+	</style>
+	
+	<style name="TitleLvl3LinearLayout">
+	    <item name="android:layout_height">match_parent</item>
+	    <item name="android:layout_width">0dip</item>
+	    <item name="android:layout_weight">1</item>
+	    <item name="android:orientation">vertical</item>	 
+	    <item name="android:padding">5sp</item>
+	</style>
+	    
+	    
+	<style name="TitleImage">	    
+		<item name="android:layout_width">match_parent</item> 
+    	<item name="android:layout_height">match_parent</item>
+	</style>
+	
+	<style name="Title" parent="@android:style/TextAppearance">
+	    <item name="android:layout_gravity">center</item>
+	    <item name="android:layout_width">wrap_content</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:textColor">@color/black</item>	    
+	</style>
+	
+	<style name="Title.Large">
+	    <item name="android:textSize">35dip</item>
+	</style>
+    
+	<style name="Title.Large.Bold">	    
+	    <item name="android:textStyle">bold</item>
+	</style>
+	    
+	<style name="Title.Medium">
+	    <item name="android:gravity">center</item>
+	    <item name="android:textSize">30dip</item>
+	</style>
+	
+	<style name="Title.Large.Medium">
+	    <item name="android:textStyle">bold</item>
+	</style>
+	    
+	<style name="Title.Small">
+	    <item name="android:textSize">14sp</item>
+	</style>
+	
+	<style name="GamingFullPageLinearLayout">	    
+	    <item name="android:layout_height">match_parent</item>
+	    <item name="android:layout_width">match_parent</item>
+	    <item name="android:orientation">vertical</item>
+	</style>
+	    
+	<style name="GamingFullPageImageView">	    
+	    <item name="android:layout_height">match_parent</item>
+	    <item name="android:layout_width">match_parent</item>
+	</style>
+	    
+	    
+	    
+	<style name="GamingTitleLinearLayout">	    
+	    <item name="android:layout_height">0dip</item>
+	    <item name="android:layout_width">match_parent</item>
+	    <item name="android:orientation">horizontal</item>
+	    <item name="android:layout_weight">3</item>
+	</style>
+	
+	<style name="GamingTitleLeftLinearLayout">	    
+	    <item name="android:layout_height">match_parent</item>
+	    <item name="android:layout_width">0dip</item>
+	    <item name="android:orientation">vertical</item>
+	    <item name="android:layout_weight">2</item>	    
+	</style>
+	<style name="GamingTitleHomeImageView">
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:layout_width">wrap_content</item>
+	    <item name="android:scaleType">fitStart</item>
+	</style>
+	   
+	
+	<style name="GamingTitleMiddleLinearLayout">	    
+	    <item name="android:layout_height">match_parent</item>
+	    <item name="android:layout_width">0dip</item>
+	    <item name="android:orientation">horizontal</item>
+	    <item name="android:gravity">center</item>
+	    <item name="android:layout_weight">5</item>	    
+	</style>
+	
+	<style name="GamingTitleRightLinearLayout">	    
+	    <item name="android:layout_height">match_parent</item>
+	    <item name="android:layout_width">0dip</item>
+	    <item name="android:orientation">vertical</item>
+	    <item name="android:layout_weight">2</item>	    
+	</style>
+	
+	<style name="GamingCenterImageLinearLayout">	    
+	    <item name="android:layout_height">0dip</item>
+	    <item name="android:layout_width">match_parent</item>
+	    <item name="android:orientation">vertical</item>
+	    <item name="android:layout_weight">8</item>
+	</style>
+	
+	<style name="GamingCenterImageView">
+	    <item name="android:layout_height">match_parent</item>
+	    <item name="android:layout_width">match_parent</item>
+	</style>
+	    
+	<style name="GamingToolbarLinearLayout">
+	    
+	    <item name="android:layout_height">0dip</item>
+	    <item name="android:layout_width">match_parent</item>
+	    <item name="android:orientation">horizontal</item>
+	    <item name="android:layout_weight">2</item>
+	</style>
+	<style name="GamingToolbarLeftLinearLayout">
+	    
+	    <item name="android:layout_height">match_parent</item>
+	    <item name="android:layout_width">0dip</item>
+	    <item name="android:orientation">vertical</item>
+	    <item name="android:layout_weight">2</item>	    
+	</style>
+	<style name="GamingToolbarMiddleLinearLayout">
+	    
+	    <item name="android:layout_height">match_parent</item>
+	    <item name="android:layout_width">0dip</item>
+	    <item name="android:orientation">vertical</item>
+	    <item name="android:layout_weight">8</item>
+	    <item name="android:padding">10dip</item>	    
+	</style>
+	<style name="GamingToolbarRightLinearLayout">
+	    
+	    <item name="android:layout_height">match_parent</item>
+	    <item name="android:layout_width">0dip</item>
+	    <item name="android:orientation">vertical</item>
+	    <item name="android:layout_weight">2</item>	    
+	</style>    
+	
+	<style name="GamingToolbarSpeakerImageView">
+	    <item name="android:layout_height">match_parent</item>
+	    <item name="android:layout_width">match_parent</item>
+	    
+	            
+	</style>
+	<style name="GamingToolbarArrowLeftImageView">
+	    <item name="android:layout_height">match_parent</item>
+	    <item name="android:layout_width">match_parent</item>
+	    <item name="android:scaleType">fitStart</item>        
+	</style>
+	<style name="GamingToolbarArrowRightImageView">
+	    <item name="android:layout_height">match_parent</item>
+	    <item name="android:layout_width">match_parent</item>
+	    <item name="android:scaleType">fitEnd</item>
+	            
+	</style>
+</resources>

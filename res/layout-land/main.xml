@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+   android:layout_width="match_parent"   
+   android:layout_height="match_parent"
+   android:padding="20sp"
+   android:background="@color/background_color">
+          
+	<TextView 
+		style="@style/Title.Large.Bold"
+		android:gravity="center"
+		android:text="XXX -- Sports for Life" 
+		android:id="@+id/TitleMain" />	
+	
+    <LinearLayout 
+        style="@style/TitleLvl1LinearLayout">
+       <LinearLayout
+           style="@style/TitleLvl2LinearLayout">
+           <LinearLayout
+               style="@style/TitleLvl3LinearLayout"
+               android:id="@+id/basketballLayout">
+               <TextView                   
+                   style="@style/Title.Medium"
+                   android:id="@+id/TitleBasketball"
+                   android:text="@string/basketballLabel"/>
+               <ImageView
+                   style="@style/TitleImage"
+                   android:src="@drawable/basketball"/>
+           </LinearLayout>
+           <LinearLayout
+               style="@style/TitleLvl3LinearLayout"
+               android:id="@+id/baseballLayout">
+               <TextView
+                   style="@style/Title.Medium"
+                   android:id="@+id/TitleBaseball"
+                   android:text="@string/baseballLabel"/>
+               <ImageView
+                   style="@style/TitleImage"
+                   android:src="@drawable/baseball"/>
+           </LinearLayout>
+           <LinearLayout               
+               style="@style/TitleLvl3LinearLayout"
+               android:id="@+id/soccerLayout">               
+               <TextView
+                   style="@style/Title.Medium"
+                   android:id="@+id/TitleSoccer"
+                   android:text="@string/soccerLabel"/>
+               <ImageView
+                   style="@style/TitleImage"
+                   android:src="@drawable/soccer"/>               
+           </LinearLayout>
+       </LinearLayout>    
+       
+       <LinearLayout
+           style="@style/TitleLvl2LinearLayout">
+           <LinearLayout               
+               style="@style/TitleLvl3LinearLayout"
+               android:id="@+id/tennisLayout">
+               <TextView
+                   style="@style/Title.Medium"
+                   android:id="@+id/TitleTennis"
+                   android:text="@string/tennisLabel"/>
+               <ImageView
+                   style="@style/TitleImage"
+                   android:src="@drawable/tennis"/>
+           </LinearLayout>
+           <LinearLayout               
+               style="@style/TitleLvl3LinearLayout"
+               android:id="@+id/golfLayout">
+               <TextView
+                   style="@style/Title.Medium"
+                   android:id="@+id/TitleGolf"
+                   android:text="@string/golfLabel"/>
+               <ImageView
+                   style="@style/TitleImage"
+                   android:src="@drawable/golf"/>
+           </LinearLayout>
+           <LinearLayout               
+               style="@style/TitleLvl3LinearLayout"
+               android:id="@+id/othersLayout">               
+               <TextView
+                   style="@style/Title.Medium"
+                   android:id="@+id/TitleOthers"
+                   android:text="@string/othersLabel"/>
+               <ImageView
+                   style="@style/TitleImage"
+                   android:src="@drawable/others"/>               
+           </LinearLayout>
+    	</LinearLayout>    
+    	
+    	
+    </LinearLayout>
+</LinearLayout>
